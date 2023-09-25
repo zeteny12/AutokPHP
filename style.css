@@ -1,0 +1,39 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    color: black;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border-radius: 16px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.card-body{
+    box-sizing: border-box;
+    align-items: center;
+}
+
+img:hover{
+    transform: translateY(-10px);
+    transition: .2s;
+}
+
+.btn-primary{
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    transform: translateX(10px);
+    transition: .2s;
+}
